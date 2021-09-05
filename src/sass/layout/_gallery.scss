@@ -1,0 +1,18 @@
+.gallery {
+  background-image: linear-gradient(#fff5f6 0% 40%, white 40% 100%);
+  &__container {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.gallery__container {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-image {
+  @media screen and (min-width: 1280px) {
+    max-width: none;
+  }
+}
