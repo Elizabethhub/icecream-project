@@ -3,12 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Elizabethhub.github.io/icecreame",
+  "homepage": "https://Elizabethhub.github.io/icecream-project",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /icecreame/",
-    "predeploy": "npm run build",
-    "deploy": "netlify deploy -p"
+    "build": "parcel build src/*.html --public-url /icecream-project/"
   },
   "repository": {
     "type": "git",
@@ -21,7 +19,6 @@
     "url": "https://github.com/goitacademy/parcel-project-template/issues"
   },
   "devDependencies": {
-    "netlify-cli": "^6.8.5",
     "parcel-bundler": "^1.12.5",
     "parcel-plugin-handlebars-precompile": "^1.0.2",
     "parcel-plugin-nuke-dist": "^1.0.1",
